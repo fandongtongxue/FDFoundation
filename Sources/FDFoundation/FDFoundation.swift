@@ -1,3 +1,5 @@
-struct FDFoundation {
-    var text = "Hello, World!"
+import Foundation
+
+public class FDFoundation : NSObject {
+    
 }
