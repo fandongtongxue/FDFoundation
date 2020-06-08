@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import HandyJSON
+import KakaJSON
 
-public class FDResponseModel: HandyJSON {
+public class FDResponseModel: Convertible {
     
     required init() {}
 }
