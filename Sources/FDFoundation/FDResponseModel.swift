@@ -10,6 +10,6 @@ import KakaJSON
 
 public class FDResponseModel: Convertible {
     
-    required init() {}
+    required public init() {}
 }
 
