@@ -7,6 +7,6 @@ public class FDFoundation : NSObject {
     }
     
     public class func getBuildVersion() -> String {
-        return "20200608"
+        return "20200902"
     }
 }
