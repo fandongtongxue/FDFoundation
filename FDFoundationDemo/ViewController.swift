@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         struct Repo: HandyJSON {
             var name: String?
-            var url: URL?
+            var url: String?
         }
         
         let json = [
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         ]
         
         let repo = Repo.deserialize(from: json)
-        print(repo)
+        print(repo as Any)
     }
 
 
