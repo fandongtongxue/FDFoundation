@@ -13,3 +13,8 @@ public class FDResponseModel: HandyJSON {
     required public init() {}
 }
 
+public struct FDResponseStruct: HandyJSON {
+    
+    required public init() {}
+}
+

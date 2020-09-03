@@ -7,14 +7,14 @@
 //
 
 import UIKit
-import HandyJSON
+import FDFoundation
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        struct Repo: HandyJSON {
+        struct Repo: FDResponseModel {
             var name: String?
             var url: String?
         }
