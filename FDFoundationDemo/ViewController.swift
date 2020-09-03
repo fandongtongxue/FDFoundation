@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         ]
         
         let repo = FDRepoModel.deserialize(from: json)
-        print(repo as Any)
+        print(repo?.toJSON())
     }
 
 
