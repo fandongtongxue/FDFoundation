@@ -6,17 +6,17 @@
         "repositoryURL": "https://github.com/fandongtongxue/FDFoundation.git",
         "state": {
           "branch": "master",
-          "revision": "95c16a64abbc947dffd18a22ea07cc7f30bd3a9b",
+          "revision": "f6887c06836764ccfd2e1d26abd14efadebd0a6e",
           "version": null
         }
       },
       {
-        "package": "KakaJSON",
-        "repositoryURL": "https://github.com/kakaopensource/KakaJSON.git",
+        "package": "HandyJSON",
+        "repositoryURL": "https://github.com/alibaba/HandyJSON.git",
         "state": {
           "branch": null,
-          "revision": "88d8587a90b8efaac9228baee3a759c25f8a6dd3",
-          "version": "1.1.2"
+          "revision": "dcf39cf062680ffa4fd0acb7f9117a97755c113f",
+          "version": "5.0.2"
         }
       }
     ]

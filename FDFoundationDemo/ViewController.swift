@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import FDFoundation
-import KakaJSON
+import HandyJSON
 
 class ViewController: UIViewController {
 
@@ -25,7 +24,7 @@ class ViewController: UIViewController {
             "url": "https://github.com/kakaopensource/KakaJSON"
         ]
         
-        let repo = json
+        let repo = Repo.deserialize(from: json)
         print(repo)
     }
 
