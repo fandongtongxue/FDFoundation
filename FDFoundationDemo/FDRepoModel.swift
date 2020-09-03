@@ -9,6 +9,7 @@
 import Foundation
 import FDFoundation
 
-public class FDRepoModel: FDResponseModel {
-    
+class FDRepoModel: FDResponseModel {
+    var name : String?
+    var url : String?
 }

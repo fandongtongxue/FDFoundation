@@ -8,7 +8,7 @@
 import Foundation
 import HandyJSON
 
-public class FDResponseModel: HandyJSON {
+open class FDResponseModel: HandyJSON {
     
     required public init() {}
 }
