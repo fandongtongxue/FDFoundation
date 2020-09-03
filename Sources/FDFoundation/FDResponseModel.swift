@@ -15,6 +15,6 @@ public class FDResponseModel: HandyJSON {
 
 public struct FDResponseStruct: HandyJSON {
     
-    required public init() {}
+    
 }
 
