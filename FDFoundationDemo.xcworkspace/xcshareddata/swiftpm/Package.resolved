@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "devicekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/fandongtongxue_admin/DeviceKit.git",
+      "state" : {
+        "revision" : "cc49d42dafd69c96abbf695cedbefab6441f1afa",
+        "version" : "4.6.0"
+      }
+    },
+    {
+      "identity" : "fdfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/fandongtongxue_admin/FDFoundation",
+      "state" : {
+        "branch" : "master",
+        "revision" : "ff33360e9de8862e03089f5befa277182bf72cdc"
+      }
+    },
+    {
+      "identity" : "handyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/fandongtongxue_admin/HandyJSON.git",
+      "state" : {
+        "revision" : "dcf39cf062680ffa4fd0acb7f9117a97755c113f",
+        "version" : "5.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
