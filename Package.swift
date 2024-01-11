@@ -14,8 +14,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://gitee.com/fandongtongxue_admin/HandyJSON.git", from: "5.0.0"),
-        .package(url: "https://github.com/devicekit/DeviceKit.git", branch: "release/5.1.0"),
+        .package(url: "https://github.com/alibaba/HandyJSON", from: "5.0.0"),
+        .package(url: "https://github.com/devicekit/DeviceKit.git", from: "5.1.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
