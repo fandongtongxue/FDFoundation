@@ -14,7 +14,6 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/Miles-Matheson/HandyJSON.git", branch: "master"),
         .package(url: "https://github.com/devicekit/DeviceKit.git", from: "5.4.0"),
     ],
     targets: [
